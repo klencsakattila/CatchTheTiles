@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url(font/PressStart2P-Regular.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    background-image: url('arcade-background.jpg'); /* Replace with your arcade background image */
+    background-size: cover;
+}
+
+.teszt{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#controls{
+    display: flex ;
+    flex-direction: row;
+    height: 40px;
+    font-size: 30px;
+}
+
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#gameCanvas {
+    background-color: #222;
+    border: 5px solid #fff;
+}
+#startButton, #restartButton {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.glow {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
+}
+
